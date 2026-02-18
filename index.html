@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма реєстрації</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Форма реєстрації</h1>
+
+        <form id="registrationForm">
+            <div class="form-group">
+                <label>Ім'я:</label>
+                <input type="text" id="name">
+                <small class="error" id="nameError"></small>
+            </div>
+
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="text" id="email">
+                <small class="error" id="emailError"></small>
+            </div>
+
+            <div class="form-group">
+                <label>Пароль:</label>
+                <input type="password" id="password">
+                <small class="error" id="passwordError"></small>
+            </div>
+
+            <div class="form-group">
+                <label>Підтвердження пароля:</label>
+                <input type="password" id="confirmPassword">
+                <small class="error" id="confirmError"></small>
+            </div>
+
+            <button type="submit">Зареєструватися</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
