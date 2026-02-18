@@ -6,7 +6,6 @@ body {
     align-items: center;
     height: 80vh;
 }
-
 .container {
     background: rgba(241, 240, 240, 0.932);
     padding: 30px;
@@ -14,21 +13,17 @@ body {
     width: 350px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
 h1 {
     text-align: center;
 }
-
 .form-group {
     margin-bottom: 15px;
 }
-
 input {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
 }
-
 button {
     width: 100%;
     padding: 10px;
@@ -37,11 +32,9 @@ button {
     border: none;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #62b366;
 }
-
 .error {
     color: red;
     font-size: 12px;
